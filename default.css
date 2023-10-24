@@ -474,4 +474,15 @@
 		/* Puedes agregar estilos adicionales cuando el ratón está sobre el texto si lo deseas */
 		color: yellow; /* Cambia el color del texto cuando el ratón está sobre él (opcional) */
 	}
+
+	.button {
+		transition: background-color 0.3s, color 0.3s;
+		text-decoration: none;
+	}
+	
+	.button:hover {
+		background-color: #ff0000; /* Cambia el color de fondo al pasar el ratón */
+		color: #000; /* Cambia el color del texto al pasar el ratón */
+	}
+	
 	
