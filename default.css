@@ -465,4 +465,13 @@
 	.image:hover {
 		transform: rotate(360deg);
 	}
+
+	.box span {
+		cursor: pointer; /* Cambia el cursor a la forma clicable */
+	}
+	
+	.box span:hover {
+		/* Puedes agregar estilos adicionales cuando el ratón está sobre el texto si lo deseas */
+		color: yellow; /* Cambia el color del texto cuando el ratón está sobre él (opcional) */
+	}
 	
