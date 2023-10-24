@@ -458,3 +458,11 @@
 		left: 100%; /* Posición final después de la animación */
 	}
 	
+	.image {
+		transition: transform 0.5s ease;
+	}
+	
+	.image:hover {
+		transform: rotate(360deg);
+	}
+	
